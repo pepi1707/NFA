@@ -1,0 +1,118 @@
+<<<<<<< HEAD
+# depslib dependency file v1.0
+1556623860 source:c:\c++\oop-prakt\nfa\nfa\set.cpp
+	<cassert>
+	<iostream>
+
+1558283760 source:c:\c++\oop-prakt\nfa\nfa\state.cpp
+	<iostream>
+	<cassert>
+	"state.h"
+
+1558283737 c:\c++\oop-prakt\nfa\nfa\state.h
+	<vector>
+	<fstream>
+	<iostream>
+	"transition.h"
+
+1556631275 c:\c++\oop-prakt\nfa\nfa\set.cpp
+	<cassert>
+	<iostream>
+
+1556624146 source:c:\c++\oop-prakt\nfa\nfa\test.cpp
+	<iostream>
+	"state.h"
+
+1558283783 source:c:\c++\oop-prakt\nfa\nfa\main.cpp
+	<iostream>
+	"automaton.h"
+
+1558014396 c:\c++\oop-prakt\nfa\nfa\transition.h
+
+1558037516 source:c:\c++\oop-prakt\nfa\nfa\transition.cpp
+	"transition.h"
+	<iostream>
+	"state.h"
+
+1557956750 source:c:\c++\oop-prakt\nfa\nfa\automata.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"automata.h"
+
+1557956834 c:\c++\oop-prakt\nfa\nfa\automata.h
+	<vector>
+	"state.h"
+
+1558283725 c:\c++\oop-prakt\nfa\nfa\automaton.h
+	<vector>
+	"state.h"
+
+1558283484 source:c:\c++\oop-prakt\nfa\nfa\automaton.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<cstring>
+	<cassert>
+	"automaton.h"
+
+=======
+# depslib dependency file v1.0
+1556623860 source:c:\c++\oop-prakt\nfa\nfa\set.cpp
+	<cassert>
+	<iostream>
+
+1559299410 source:c:\c++\oop-prakt\nfa\nfa\state.cpp
+	<iostream>
+	<cassert>
+	"state.h"
+
+1558283737 c:\c++\oop-prakt\nfa\nfa\state.h
+	<vector>
+	<fstream>
+	<iostream>
+	"transition.h"
+
+1556631275 c:\c++\oop-prakt\nfa\nfa\set.cpp
+	<cassert>
+	<iostream>
+
+1556624146 source:c:\c++\oop-prakt\nfa\nfa\test.cpp
+	<iostream>
+	"state.h"
+
+1559493228 source:c:\c++\oop-prakt\nfa\nfa\main.cpp
+	<iostream>
+	"automaton.h"
+	<cstring>
+
+1558014396 c:\c++\oop-prakt\nfa\nfa\transition.h
+
+1558037516 source:c:\c++\oop-prakt\nfa\nfa\transition.cpp
+	"transition.h"
+	<iostream>
+	"state.h"
+
+1557956750 source:c:\c++\oop-prakt\nfa\nfa\automata.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"automata.h"
+
+1557956834 c:\c++\oop-prakt\nfa\nfa\automata.h
+	<vector>
+	"state.h"
+
+1559726408 c:\c++\oop-prakt\nfa\nfa\automaton.h
+	<vector>
+	"state.h"
+
+1559495569 source:c:\c++\oop-prakt\nfa\nfa\automaton.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<cstring>
+	<cassert>
+	"automaton.h"
+
+>>>>>>> yeah
