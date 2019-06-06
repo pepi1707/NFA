@@ -51,7 +51,7 @@ public:
 
     void sortStates(int, int);
 
-    void openFromFile(char fileName[]);
+    bool openFromFile(char fileName[]);
 
     void writeInFile(char fileName[]);
 

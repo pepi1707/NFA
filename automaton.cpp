@@ -145,9 +145,15 @@ int Automaton::getNumTransitions() const
     return numTransitions;
 }
 
-void Automaton::openFromFile(char fileName[])
+bool Automaton::openFromFile(char fileName[])
 {
     std::ifstream fileInput(fileName);
+
+    if(fileInput.fail())
+    {
+        cout << "File doesn't exist or you have no permission for it\n";
+        return 0;
+    }
 
     int numStates;
 
@@ -192,6 +198,7 @@ void Automaton::openFromFile(char fileName[])
 
     fileInput.close();
 
+    return 1;
 }
 
 void Automaton::writeInFile(char fileName[])
@@ -756,4 +763,5 @@ void Automaton::determine()
     removeUnreachableStates();
 
 }
+
 

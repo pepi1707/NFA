@@ -92,8 +92,17 @@ int main()
 
             automata.push_back(Automaton());
 
-            automata[automata.size() - 1].openFromFile(filepath);
+            bool succeeded = automata[automata.size() - 1].openFromFile(filepath);
+
+            if(!succeeded)
+            {
+                automata.erase(automata.begin() + automata.size() - 1);
+                continue;
+            }
+
             automata[automata.size() - 1].setAutomatonID(automata.size() - 1);
+
+            cout << automata[automata.size() - 1].getAutomatonID() << endl;
 
             continue;
 
