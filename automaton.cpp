@@ -604,7 +604,7 @@ Automaton findAutomatonForRegex(int leftBorder, int rightBorder, const char* reg
     }
 
     int newLeft = ended + 1;
-    for( ; newLeft < rightBorder; newLeft ++)
+    for( ; newLeft <= rightBorder; newLeft ++)
     {
         if(regexText[newLeft] != '*')
             break;
@@ -620,12 +620,12 @@ Automaton findAutomatonForRegex(int leftBorder, int rightBorder, const char* reg
         left = findAutomatonForRegex(leftBorder + 1, ended - 1, regexText);
     }
 
-    if(regexText[newLeft] == '*')
+    if(regexText[newLeft - 1] == '*')
     {
         left = left.Closure();
     }
 
-    if(newLeft != rightBorder)
+    if(newLeft <= rightBorder)
     {
         Automaton right = findAutomatonForRegex(newLeft + 1, rightBorder, regexText);
 
